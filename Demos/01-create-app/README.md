@@ -1,0 +1,3 @@
+# <a name="completed-module-create-a-universal-windows-platform-uwp-app"></a>Módulo concluído: criar um aplicativo da plataforma universal do Windows (UWP)
+
+A versão do projeto neste diretório reflete a conclusão do tutorial para a [criação de um aplicativo UWP (plataforma universal do Windows)](https://docs.microsoft.com/graph/training/uwp-tutorial?tutorial-step=1). Se você usar esta versão do projeto, precisará concluir o restante do tutorial começando em [registrar o aplicativo no portal](https://docs.microsoft.com/graph/training/uwp-tutorial?tutorial-step=2).
