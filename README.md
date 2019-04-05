@@ -28,16 +28,17 @@ Este módulo foi gravado e está disponível no canal do Office Development YouT
 
 ## <a name="contributors"></a>Colaboradores
 
-|        Funções         |                            Autor (es)                             |
+| Funções                | Autor (es)                                                        |
 | -------------------- | ---------------------------------------------------------------- |
-| Manuais/slides do laboratório | Andrew Connell (Microsoft MVP, Voitanos) @andrewconnell          |
-| CONTROLE                   | Julie Turner (Microsoft MVP, consultoria de Sympraxis) @juliemturner |
-| Patrocinador/suporte    | Yina Arenas (Microsoft) @yina_arenas                             |
+| Manuais/slides do laboratório | Andrew Connell (Microsoft MVP, Voitanos)@andrewconnell          |
+| CONTROLE                   | Julie Turner (Microsoft MVP, consultoria de Sympraxis)@juliemturner |
+| Patrocinador/suporte    | Yina Arenas (Microsoft)@yina_arenas                             |
 
 ## <a name="version-history"></a>Histórico de versão
 
-| Versão |        Data        |                       Comments                       |
+| Versão | Data               | Comentários                                             |
 | ------- | ------------------ | ---------------------------------------------------- |
+| 1.7     | 6 de março de 2019      | atualização de conteúdo do 2019Q3                               |
 | 1.6     | 19 de dezembro de 2018  | atualização de conteúdo do 2019Q2                               |
 | 1,5     | 27 de novembro de 2018  | Integrado ao docs.microsoft.com/graph                |
 | 1.4     | 2 de novembro de 2018   | Módulos reVisados para consistência com outros treinamentos. |
@@ -48,7 +49,7 @@ Este módulo foi gravado e está disponível no canal do Office Development YouT
 
 ## <a name="disclaimer"></a>Aviso de isenção de responsabilidade
 
-**Este código é fornecido *como está* sem garantia de qualquer tipo, seja expressa ou implícita, incluindo quaisquer garantias implícitas de ADEQÜAÇÃO para um propósito específico, comercialização ou não-violação.**
+**Este código é fornecido _como está_ sem garantia de qualquer tipo, seja expressa ou implícita, incluindo quaisquer garantias implícitas de ADEQÜAÇÃO para um propósito específico, comercialização ou não-violação.**
 
 <!-- markdownlint-disable MD033 -->
 <img src="https://telemetry.sharepointpnp.com/msgraph-training-uwp" />
