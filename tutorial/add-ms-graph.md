@@ -127,7 +127,7 @@ Isso substitui o `TextBlock` por a `DataGrid`. Agora, `CalendarPage.xaml.cs` abr
 EventList.ItemsSource = events.CurrentPage.ToList();
 ```
 
-Se você executar o aplicativo agora e selecionar o calendário, você deve obter uma lista de eventos em uma grade de dados. No enTanto, os valores **inicial** e **final** são exibidos de forma não amigável. Você pode controlar como esses valores são exibidos usando um [conversor de valor](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Data.IValueConverter).
+Se você executar o aplicativo agora e selecionar o calendário, você deve obter uma lista de eventos em uma grade de dados. No entanto, os valores **inicial** e **final** são exibidos de forma não amigável. Você pode controlar como esses valores são exibidos usando um [conversor de valor](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Data.IValueConverter).
 
 Clique com o botão direito do mouse no projeto do **tutorial de gráfico** no Gerenciador de soluções e escolha **Adicionar classe >...**. Nomeie a classe `GraphDateTimeTimeZoneConverter.cs` e escolha **Adicionar**. Substitua todo o conteúdo do arquivo pelo seguinte.
 

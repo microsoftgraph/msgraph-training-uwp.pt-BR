@@ -88,7 +88,7 @@ if ((App.Current as App).IsAuthenticated)
 }
 ```
 
-ReInicie o aplicativo e clique no controle de **entrada** na parte superior do aplicativo. Depois que você entrar, a interface do usuário deverá mudar para indicar que você entrou com êxito.
+Reinicie o aplicativo e clique no controle de **entrada** na parte superior do aplicativo. Depois que você entrar, a interface do usuário deverá mudar para indicar que você entrou com êxito.
 
 ![Uma captura de tela do aplicativo após entrar](./images/add-aad-auth-01.png)
 
