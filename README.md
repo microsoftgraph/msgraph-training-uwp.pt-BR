@@ -24,20 +24,22 @@ Se você só quiser que o exemplo completo seja gerado seguindo este laboratóri
 
 ## <a name="watch-the-module"></a>Assista ao módulo
 
-Este módulo foi gravado e está disponível no canal do Office Development YouTube: [compilar aplicativos UWP com o SDK do Microsoft Graph .net](https://youtu.be/XNxBUmqcf6c)
+Este módulo foi gravado e está disponível no canal do Office Development YouTube: [compilar aplicativos UWP com o SDK do Microsoft Graph .net](https://youtu.be/oBYCBxkWMRA)
 
 ## <a name="contributors"></a>Colaboradores
 
-| Funções                | Autor (es)                                                        |
-| -------------------- | ---------------------------------------------------------------- |
-| Manuais/slides do laboratório | Andrew Connell (Microsoft MVP, Voitanos) @andrewconnell          |
-| CONTROLE                   | Julie Turner (Microsoft MVP, consultoria de Sympraxis) @juliemturner |
-| Patrocinador/suporte    | Yina Arenas (Microsoft) @yina_arenas                             |
+|        Funções         |                                           Autor (es)                                           |
+| -------------------- | --------------------------------------------------------------------------------------------- |
+| Manuais/slides do laboratório | Andrew Connell (Microsoft MVP, Voitanos) [@andrewconnell](//github.com/andrewconnell)         |
+| CONTROLE                   | Julie Turner (Microsoft MVP, consultoria de Sympraxis) [@juliemturner](//github.com/juliemturner) |
+| Patrocinador/suporte    | Yina Arenas (Microsoft) [@yina_arenas](//github.com//github.com/yina_arenas)                  |
 
 ## <a name="version-history"></a>Histórico de versão
 
-| Version | Data               | Comments                                             |
+| Versão |        Data        |                       Comments                       |
 | ------- | ------------------ | ---------------------------------------------------- |
+| 1.9     | 18 de junho de 2019      | Leiame atualizado para a gravação de screencast atualizada     |
+| 1,8     | 24 de maio de 2019       | atualização de conteúdo do 2019Q4                               |
 | 1.7     | 6 de março de 2019      | atualização de conteúdo do 2019Q3                               |
 | 1.6     | 19 de dezembro de 2018  | atualização de conteúdo do 2019Q2                               |
 | 1,5     | 27 de novembro de 2018  | Integrado ao docs.microsoft.com/graph                |
