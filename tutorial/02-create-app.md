@@ -1,12 +1,12 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-Abra o Visual Studio e selecione **arquivo > novo > projeto**. Na caixa de diálogo **novo projeto** , faça o seguinte:
+Abra o Visual Studio e selecione **criar um novo projeto**. Escolha a opção **aplicativo em branco (universal do Windows)** que usa C# e, em seguida, selecione **Avançar**.
 
-1. Selecione **modelos > Visual C# > Windows universal**.
-1. Selecione **aplicativo em branco (Universal Windows)**.
-1. Insira o **gráfico-tutorial** para o nome do projeto.
+![Visual Studio 2019 criar nova caixa de diálogo de projeto](./images/vs-create-new-project.png)
 
-![Visual Studio 2017 criar nova caixa de diálogo de projeto](./images/vs-newproj-01.png)
+Na caixa de diálogo **configurar seu novo projeto** , `graph-tutorial` Insira o campo **nome do projeto** e selecione **criar**.
+
+![Visual Studio 2019 configurar a caixa de diálogo novo projeto](./images/vs-configure-new-project.png)
 
 > [!IMPORTANT]
 > Certifique-se de inserir exatamente o mesmo nome para o projeto do Visual Studio especificado nas instruções do laboratório. O nome do projeto do Visual Studio se torna parte do namespace no código. O código dentro dessas instruções depende do namespace correspondente ao nome do projeto do Visual Studio especificado nessas instruções. Se você usar um nome de projeto diferente, o código não será compilado, a menos que você ajuste todos os namespaces para corresponder ao nome do projeto do Visual Studio que você digitou ao criar o projeto.
@@ -23,10 +23,10 @@ Antes de prosseguir, instale alguns pacotes NuGet adicionais que serão usados p
 Selecione **ferramentas > Gerenciador de pacotes do NuGet > console do Gerenciador de pacotes**. No console do Gerenciador de pacotes, insira os seguintes comandos.
 
 ```Powershell
-Install-Package Microsoft.Toolkit.Uwp.Ui.Controls
-Install-Package Microsoft.Toolkit.Uwp.Ui.Controls.DataGrid
-Install-Package Microsoft.Toolkit.Uwp.Ui.Controls.Graph
-Install-Package Microsoft.Graph
+Install-Package Microsoft.Toolkit.Uwp.Ui.Controls -Version 5.1.1
+Install-Package Microsoft.Toolkit.Uwp.Ui.Controls.DataGrid -Version 5.1.0
+Install-Package Microsoft.Toolkit.Uwp.Ui.Controls.Graph -Version 5.1.0
+Install-Package Microsoft.Graph -Version 1.16.0
 ```
 
 ## <a name="design-the-app"></a>Projetar o aplicativo
@@ -98,19 +98,7 @@ Agora, adicione outra página XAML para o modo de exibição de página inicial.
 </StackPanel>
 ```
 
-Agora expanda **MainPage. XAML** no Gerenciador de soluções `MainPage.xaml.cs`e abra. Adicione o seguinte código ao `MainPage()` Construtor **após** a `this.InitializeComponent();` linha.
-
-```cs
-// Initialize auth state to false
-SetAuthState(false);
-
-// Navigate to HomePage.xaml
-RootFrame.Navigate(typeof(HomePage));
-```
-
-Quando o aplicativo é iniciado pela primeira vez, ele inicializa o estado `false` de autenticação e navega até a Home Page.
-
-Adicione a função a seguir à `MainPage` classe para gerenciar o estado de autenticação.
+Agora expanda **MainPage. XAML** no Gerenciador de soluções `MainPage.xaml.cs`e abra. Adicione a função a seguir à `MainPage` classe para gerenciar o estado de autenticação.
 
 ```cs
 private void SetAuthState(bool isAuthenticated)
@@ -121,6 +109,18 @@ private void SetAuthState(bool isAuthenticated)
     Calendar.IsEnabled = isAuthenticated;
 }
 ```
+
+Adicione o seguinte código ao `MainPage()` Construtor **após** a `this.InitializeComponent();` linha.
+
+```cs
+// Initialize auth state to false
+SetAuthState(false);
+
+// Navigate to HomePage.xaml
+RootFrame.Navigate(typeof(HomePage));
+```
+
+Quando o aplicativo é iniciado pela primeira vez, ele inicializa o estado `false` de autenticação e navega até a Home Page.
 
 Adicione o manipulador de eventos a seguir para carregar a página solicitada quando o usuário seleciona um item do modo de exibição de navegação.
 

@@ -10,7 +10,7 @@ Este tutorial ensina como criar um aplicativo da plataforma universal do Windows
 Antes de iniciar este tutorial, você deve ter o [Visual Studio](https://visualstudio.microsoft.com/vs/) instalado em um computador executando o Windows 10 com o [modo de desenvolvedor ativado](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development). Se você não tiver o Visual Studio, visite o link anterior para opções de download.
 
 > [!NOTE]
-> Este tutorial foi escrito com o Visual Studio 2017 versão 15.8.1. As etapas deste guia podem funcionar com outras versões, mas que não foram testadas.
+> Este tutorial foi escrito com o Visual Studio 2019 versão 16.1.5. As etapas deste guia podem funcionar com outras versões, mas que não foram testadas.
 
 ## <a name="watch-the-tutorial"></a>Assista ao tutorial
 
