@@ -1,20 +1,20 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-<span data-ttu-id="c653c-101">Este tutorial ensina como criar um aplicativo da plataforma universal do Windows (UWP) que usa a API do Microsoft Graph para recuperar informações de calendário de um usuário.</span><span class="sxs-lookup"><span data-stu-id="c653c-101">This tutorial teaches you how to build a Universal Windows Platform (UWP) app that uses the Microsoft Graph API to retrieve calendar information for a user.</span></span>
+<span data-ttu-id="08943-101">Este tutorial ensina como criar um aplicativo da plataforma universal do Windows (UWP) que usa a API do Microsoft Graph para recuperar informações de calendário de um usuário.</span><span class="sxs-lookup"><span data-stu-id="08943-101">This tutorial teaches you how to build a Universal Windows Platform (UWP) app that uses the Microsoft Graph API to retrieve calendar information for a user.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="c653c-102">Se preferir baixar o tutorial concluído, você poderá baixar ou clonar o repositório do [GitHub](https://github.com/microsoftgraph/msgraph-training-uwp).</span><span class="sxs-lookup"><span data-stu-id="c653c-102">If you prefer to just download the completed tutorial, you can download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-uwp).</span></span>
+> <span data-ttu-id="08943-102">Se preferir baixar o tutorial concluído, você poderá baixar ou clonar o repositório do [GitHub](https://github.com/microsoftgraph/msgraph-training-uwp).</span><span class="sxs-lookup"><span data-stu-id="08943-102">If you prefer to just download the completed tutorial, you can download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-uwp).</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="c653c-103">Pré-requisitos</span><span class="sxs-lookup"><span data-stu-id="c653c-103">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="08943-103">Pré-requisitos</span><span class="sxs-lookup"><span data-stu-id="08943-103">Prerequisites</span></span>
 
-<span data-ttu-id="c653c-104">Antes de iniciar este tutorial, você deve ter o [Visual Studio](https://visualstudio.microsoft.com/vs/) instalado em um computador executando o Windows 10 com o [modo de desenvolvedor ativado](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development).</span><span class="sxs-lookup"><span data-stu-id="c653c-104">Before you start this tutorial, you should have [Visual Studio](https://visualstudio.microsoft.com/vs/) installed on a computer running Windows 10 with [Developer mode turned on](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development).</span></span> <span data-ttu-id="c653c-105">Se você não tiver o Visual Studio, visite o link anterior para opções de download.</span><span class="sxs-lookup"><span data-stu-id="c653c-105">If you do not have Visual Studio, visit the previous link for download options.</span></span>
+<span data-ttu-id="08943-104">Antes de iniciar este tutorial, você deve ter o [Visual Studio](https://visualstudio.microsoft.com/vs/) instalado em um computador executando o Windows 10 com o [modo de desenvolvedor ativado](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development).</span><span class="sxs-lookup"><span data-stu-id="08943-104">Before you start this tutorial, you should have [Visual Studio](https://visualstudio.microsoft.com/vs/) installed on a computer running Windows 10 with [Developer mode turned on](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development).</span></span> <span data-ttu-id="08943-105">Se você não tiver o Visual Studio, visite o link anterior para opções de download.</span><span class="sxs-lookup"><span data-stu-id="08943-105">If you do not have Visual Studio, visit the previous link for download options.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c653c-106">Este tutorial foi escrito com o Visual Studio 2017 versão 15.8.1.</span><span class="sxs-lookup"><span data-stu-id="c653c-106">This tutorial was written with Visual Studio 2017 version 15.8.1.</span></span> <span data-ttu-id="c653c-107">As etapas deste guia podem funcionar com outras versões, mas que não foram testadas.</span><span class="sxs-lookup"><span data-stu-id="c653c-107">The steps in this guide may work with other versions, but that has not been tested.</span></span>
+> <span data-ttu-id="08943-106">Este tutorial foi escrito com o Visual Studio 2019 versão 16.1.5.</span><span class="sxs-lookup"><span data-stu-id="08943-106">This tutorial was written with Visual Studio 2019 version 16.1.5.</span></span> <span data-ttu-id="08943-107">As etapas deste guia podem funcionar com outras versões, mas que não foram testadas.</span><span class="sxs-lookup"><span data-stu-id="08943-107">The steps in this guide may work with other versions, but that has not been tested.</span></span>
 
-## <a name="watch-the-tutorial"></a><span data-ttu-id="c653c-108">Assista ao tutorial</span><span class="sxs-lookup"><span data-stu-id="c653c-108">Watch the tutorial</span></span>
+## <a name="watch-the-tutorial"></a><span data-ttu-id="08943-108">Assista ao tutorial</span><span class="sxs-lookup"><span data-stu-id="08943-108">Watch the tutorial</span></span>
 
-<span data-ttu-id="c653c-109">Este módulo foi gravado e está disponível no canal do Office Development YouTube.</span><span class="sxs-lookup"><span data-stu-id="c653c-109">This module has been recorded and is available in the Office Development YouTube channel.</span></span>
+<span data-ttu-id="08943-109">Este módulo foi gravado e está disponível no canal do Office Development YouTube.</span><span class="sxs-lookup"><span data-stu-id="08943-109">This module has been recorded and is available in the Office Development YouTube channel.</span></span>
 
 <!-- markdownlint-disable MD033 MD034 -->
 <br/>
@@ -22,6 +22,6 @@
 > [!VIDEO https://www.youtube-nocookie.com/embed/oBYCBxkWMRA]
 <!-- markdownlint-enable MD033 MD034 -->
 
-## <a name="feedback"></a><span data-ttu-id="c653c-110">Comentários</span><span class="sxs-lookup"><span data-stu-id="c653c-110">Feedback</span></span>
+## <a name="feedback"></a><span data-ttu-id="08943-110">Comentários</span><span class="sxs-lookup"><span data-stu-id="08943-110">Feedback</span></span>
 
-<span data-ttu-id="c653c-111">Forneça comentários sobre este tutorial no [repositório do GitHub](https://github.com/microsoftgraph/msgraph-training-uwp).</span><span class="sxs-lookup"><span data-stu-id="c653c-111">Please provide any feedback on this tutorial in the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-uwp).</span></span>
+<span data-ttu-id="08943-111">Forneça comentários sobre este tutorial no [repositório do GitHub](https://github.com/microsoftgraph/msgraph-training-uwp).</span><span class="sxs-lookup"><span data-stu-id="08943-111">Please provide any feedback on this tutorial in the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-uwp).</span></span>
