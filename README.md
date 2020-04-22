@@ -8,19 +8,11 @@ Neste laboratório, você criará um aplicativo UWP usando o ponto de extremidad
 
 - [Tutorial do Microsoft Graph do UWP](https://docs.microsoft.com/graph/tutorials/uwp)
 
-## <a name="demos"></a>Demonstrações
-
-O [](./Demos) diretório demos neste repositório contém cópias do projeto que correspondem à conclusão de seções individuais do tutorial. Se você só quiser demonstrar uma seção específica do tutorial, você pode começar com a versão da seção anterior.
-
-- [01-create-app](Demos/01-create-app): concluído [criar um aplicativo Web universal da plataforma Windows (UWP)](https://docs.microsoft.com/graph/tutorials/uwp?tutorial-step=1)
-- [02-Add-AAD-auth](Demos/02-add-aad-auth): concluído [Adicionar autenticação do Azure ad](https://docs.microsoft.com/graph/tutorials/uwp?tutorial-step=3)
-- [03-Add-msgraph](Demos/03-add-msgraph): concluído [obter dados de calendário](https://docs.microsoft.com/graph/tutorials/uwp?tutorial-step=4)
-
 ## <a name="completed-sample"></a>Exemplo completo
 
 Se você só quiser que o exemplo completo seja gerado seguindo este laboratório, você pode encontrá-lo aqui.
 
-- [Projeto concluído](Demos/03-add-msgraph)
+- [Projeto concluído](demo)
 
 ## <a name="watch-the-module"></a>Assista ao módulo
 
@@ -36,8 +28,9 @@ Este módulo foi gravado e está disponível no canal do Office Development YouT
 
 ## <a name="version-history"></a>Histórico de versão
 
-| Versão |        Data        |                       Comments                       |
+| Versão |        Data        |                       Comentários                       |
 | ------- | ------------------ | ---------------------------------------------------- |
+| 1,10    | 18 de março de 2020     | Tutorial atualizado                                   |
 | 1.9     | 18 de junho de 2019      | Leiame atualizado para a gravação de screencast atualizada     |
 | 1,8     | 24 de maio de 2019       | atualização de conteúdo do 2019Q4                               |
 | 1.7     | 6 de março de 2019      | atualização de conteúdo do 2019Q3                               |
