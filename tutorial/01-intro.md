@@ -15,17 +15,7 @@ Você também deve ter uma conta pessoal da Microsoft com uma caixa de correio n
 - Você pode [se inscrever no programa para desenvolvedores do office 365](https://developer.microsoft.com/office/dev-program) para obter uma assinatura gratuita do Office 365.
 
 > [!NOTE]
-> Este tutorial foi escrito com o Visual Studio 2019 versão 16.5.0. As etapas deste guia podem funcionar com outras versões, mas que não foram testadas.
-
-## <a name="watch-the-tutorial"></a>Assista ao tutorial
-
-Este módulo foi gravado e está disponível no canal do Office Development YouTube.
-
-<!-- markdownlint-disable MD033 MD034 -->
-<br/>
-
-> [!VIDEO https://www.youtube-nocookie.com/embed/oBYCBxkWMRA]
-<!-- markdownlint-enable MD033 MD034 -->
+> Este tutorial foi escrito com o Visual Studio 2019 versão 16.8.3. As etapas deste guia podem funcionar com outras versões, mas que não foram testadas.
 
 ## <a name="feedback"></a>Comentários
 
